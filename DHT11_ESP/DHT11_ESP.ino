@@ -5,7 +5,7 @@
 #include <WiFi.h>     
 #include <HTTPClient.h>
 #endif
-#include <ArduinoJson.h>
+#include <ArduinoJson.h>//version 6.15.0
 #include <DHT.h>
 HTTPClient http;
 #define DHTTYPE DHT11   
