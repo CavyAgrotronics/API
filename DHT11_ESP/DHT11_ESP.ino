@@ -12,9 +12,9 @@ HTTPClient http;
 #define dht_dpin D3 //
 DHT dht(dht_dpin, DHTTYPE);
 unsigned long previousMillis = millis();
-const char* wifissid="Yash/ayush";
-const char* wifipassword="cavy123259";
-String api_key= "72DAWHIx5VYmqS8yoLG";  //Replace this API-key with your own.
+const char* wifissid="WIFI_ssid";
+const char* wifipassword="WIFI_password";
+String api_key= "72DAWHIx5VYmqS8yoLGt";  //Replace this API-key with your own.
 StaticJsonDocument<800> json_body;
 float temperature,humidity;
 void setup() {   
