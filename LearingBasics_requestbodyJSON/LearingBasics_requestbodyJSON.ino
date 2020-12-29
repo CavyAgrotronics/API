@@ -30,8 +30,9 @@ after veriication of your email you can add upto five devices free.
 Your device APIkey you can see in you client area after your next login.
        In client area you can add devices, sensors and can set trigger
 logic for your devices to control automatically and after select from 
-upper top menu 'control panel' you can access your device via this remote 
-control panel.
+upper top menu 'control panel' you can access your device via  remote 
+control panel from anywhere.
+(Note use Google Crome,Saffari browser for best GUI experience.)
 */
 float temperature;
 float humidity;
