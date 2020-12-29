@@ -19,11 +19,11 @@
 #define dht_dpin D3 //
 DHT dht(dht_dpin, DHTTYPE);
 
-const char* wifissid="Yash/ayush";
-const char* wifipassword="cavy123259";
+const char* wifissid="WiFiSSID";
+const char* wifipassword="WiFiPassword";
 String payload;
 StaticJsonDocument<1200> json_body;
-String api_key= "xTBcn1HZo9Yd6fCpOANm";  //Replace this API-key with your own.
+String api_key= "xTBcn1HZo9Yd6fCpOAKm";  //Replace this API-key with your own.
 float temperature;
 float humidity;
 String rbody;
