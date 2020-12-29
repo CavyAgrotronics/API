@@ -24,8 +24,15 @@ const char* wifipassword="WiFiPassword";
 String payload;
 StaticJsonDocument<1200> json_body;
 String api_key= "xTBcn1HZo9Yd6fCpOAKm";  //Replace this API-key with your own.
-//If you dont have account on cavyiot.com then register now and after veriication of your email you can add upto five devices free.
-//Your device KEY you can see in you client area after login.
+/*
+       If you dont have account on cavyiot.com then register now and
+after veriication of your email you can add upto five devices free.
+Your device APIkey you can see in you client area after your next login.
+       In client area you can add devices, sensors and can set trigger
+logic for your devices to control automatically and after select from 
+upper top menu 'control panel' you can access your device via this remote 
+control panel.
+*/
 float temperature;
 float humidity;
 String rbody;
