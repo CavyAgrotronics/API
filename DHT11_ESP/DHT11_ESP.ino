@@ -14,9 +14,19 @@ DHT dht(dht_dpin, DHTTYPE);
 unsigned long previousMillis = millis();
 const char* wifissid="WIFI_ssid";
 const char* wifipassword="WIFI_password";
-String api_key= "72DAWHIx5VYmqS8yoLGt";  //Replace this API-key with your own.
 StaticJsonDocument<800> json_body;
 float temperature,humidity;
+String api_key= "72DAWHIx5VYmqS8yoLGt";  //Replace this API-key with your own.
+/*
+       If you dont have account on cavyiot.com then register now and
+after veriication of your email you can add upto five devices free.
+Your device APIkey you can see in you client area after your next login.
+       In client area you can add devices, sensors and can set trigger
+logic for your devices to control automatically and after select from 
+upper top menu 'control panel' you can access your device via  remote 
+control panel from anywhere.
+(Note use Google Crome,Saffari browser for best GUI experience.)
+*/
 void setup() {   
  Serial.begin(9600);        
  WiFi.begin(wifissid,wifipassword); 
