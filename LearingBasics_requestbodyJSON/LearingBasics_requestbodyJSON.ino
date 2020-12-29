@@ -106,7 +106,7 @@ void UpdateSensor(String rbody)
         }
    else{
         String payload=http.getString();
-        Serial.println("Response of update_sensor:");
+        Serial.println("Response of update/sensor:");
         Serial.println(payload);
         }
      http.end();
